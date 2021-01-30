@@ -1,0 +1,101 @@
+#foot{
+    background-color: #0e0c28;
+    height: 60px;
+    width: 100%;
+    margin-top:50px;
+}
+#pesan{
+    height: 60px;
+    width: 150px;
+    position: absolute;
+    right: 0;
+    border-radius: 0;
+    color: rgb(255, 255, 255);
+    display: block;
+}
+.hitam{
+    background-color: #0e0c28;
+    width: 100%;
+}
+.jenis{
+    margin-top: 100px;
+}
+.menu{
+    margin-bottom: 100px;
+}
+.mati{
+    display: none;
+}
+.plus{
+    width: 112px;
+    -webkit-transition-property: width;
+    -webkit-transition-duration: 2s;
+    -webkit-transition-timing-function: ease-in-out;
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+}
+.deskripsi{
+    margin-top: -10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+  form, .content {
+    width: 30%;
+    margin: 0px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 20px;
+  }
+.bordernav{
+    background-color: #0e0c28;
+    height: 2px;
+    width: 100vw;
+}
+
+.regis{
+    width: 100%;
+}
+.akun{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.trans{
+    background: transparent;
+    color: #555555;
+    padding: 0 10px 0 10px;
+}
+.baris{
+    margin-bottom: 15px;
+}
+.bg-img{
+    display: block;
+    background-image: url('../img/bg-form.jpg');
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+
+.form-wrapper{
+    position: relative;
+    height: 300px;
+}
+.daftar-akun{
+}
+
