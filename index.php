@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="assets/dist/css/floating-labels.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
-    <title>LOGIN | IDE RESTO</title>
+    <title>LOGIN | DNA RESTO</title>
   </head>
 
   <body class="bg-img">
@@ -61,7 +61,7 @@
       </div>
 
       <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
-      <p class="mt-5 mb-3 text-muted text-center">&copy; IDE RESTO |<?= date('d-m-Y')?></p>
+      <p class="mt-5 mb-3 text-muted text-center">&copy; DNA RESTO |<?= date('d-m-Y')?></p>
     </form>
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

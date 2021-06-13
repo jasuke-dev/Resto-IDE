@@ -70,7 +70,7 @@ if (empty($_SESSION['username']) or empty($_SESSION['level'])) {
                                             <a class="nav-link" href="akun.php" aria-expanded="false">Daftar Akun</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#" aria-expanded="false">Ubah Password</a>
+                                            <a class="nav-link" href="update.php" aria-expanded="false">Ubah Password</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -101,8 +101,7 @@ if (empty($_SESSION['username']) or empty($_SESSION['level'])) {
                             <tbody>
                                 <?php
                                     include "koneksi.php";
-                                    $daftar_menu = mysqli_query($link,"SELECT pesanan.id_pemesanan,pesanan.username,pesanan.quantity,pesanan.waktu,menu.nama from pesanan 
-                                                                        JOIN menu on pesanan.id_menu=menu.id order by id_pemesanan desc");
+                                    $daftar_menu = mysqli_query($link,"SELECT*FROM v_pesanan");
                                     $count = 0;
                                     $temp=0;
                                     while($hasil=mysqli_fetch_array($daftar_menu)): 

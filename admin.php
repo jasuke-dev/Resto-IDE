@@ -181,7 +181,7 @@ if(isset($_POST['simpan'])){
                                             <a class="nav-link" href="akun.php" aria-expanded="false">Daftar Akun</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#" aria-expanded="false">Ubah Password</a>
+                                            <a class="nav-link" href="update.php" aria-expanded="false">Ubah Password</a>
                                         </li>
                                     </ul>
                                 </div>

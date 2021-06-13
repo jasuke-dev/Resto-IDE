@@ -20,7 +20,7 @@
 <body>
     <nav class="navbar navbar-expand-lg bg-dark">
         <a class="navbar-brand" href="menu.php">
-            <h3>IDE</h3>
+            <h3>DNA</h3>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -127,7 +127,7 @@
     </div> 
                     
     <!-- footer -->
-    <div class="bg-dark fixe= " id="foot">
+    <div class="bg-dark fixed-bottom" id="foot">
                 <button class="btn btn-success" id="pesan" data-toggle="modal" data-target="#exampleModal">PESAN</button>
     </div>
 

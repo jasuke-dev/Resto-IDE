@@ -17,7 +17,7 @@
             $tmplevel = $hasil['level'];
         }
     }
-    if(isset($_POST['nama'])){
+    if(isset($_POST['update'])){
         $nama = $_POST['nama'];
         $password = $_POST['password'];        
         $level = $_POST['level'];        
@@ -29,9 +29,9 @@
                                 ");
         }else {
             $pass = md5($password);            
-            $query = mysqli_query($conn,"UPDATE login set
+            $query = mysqli_query($link,"UPDATE login set
                                         nama_lengkap = '$nama',
-                                        level = '$level'
+                                        level = '$level',
                                         password = '$pass'
                                         WHERE username = '$_GET[username]'
                                         ");
@@ -64,7 +64,7 @@
     <div class="dashboard-main-wrapper">        
         <div class="dashboard-header">
             <nav class="navbar navbar-expand-lg bg-white fixed-top">
-                <a class="navbar-brand" href="index.html">IDE</a>
+                <a class="navbar-brand" href="index.html">DNA</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -114,7 +114,7 @@
                                             <a class="nav-link" href="akun.php" aria-expanded="false">Daftar Akun</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link active" href="#" aria-expanded="false">Ubah Password</a>
+                                            <a class="nav-link active" href="update.php" aria-expanded="false">Ubah Password</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -132,7 +132,7 @@
                         <div class="card">
                             <h5 class="card-header bg-primary">Basic Form</h5>
                             <div class="card-body">
-                            <form class="form-signin regis" method="POST" action="#">    
+                            <form class="form-signin regis" method="POST" action="" enctype="multipart/form-data">    
                                 <div class="form-label-group baris">
                                     <div class="row">
                                     <div class="col-1">
@@ -141,7 +141,7 @@
                                         </svg>            
                                     </div>
                                     <div class="col-11">
-                                        <input type="text" class="form-control trans" name="username" placeholder="Username" value="<?=@$tmpusername?>" readonly>
+                                        <input type="text" class="form-control trans" name="username" placeholder="Username" value="<?=@$tmpusername?>">
                                     </div>
                                     </div>
                                 </div>
@@ -199,7 +199,7 @@
             
                                 </div>
             
-                                <button class="btn btn-lg btn-warning btn-block" type="submit" name="Update">Update</button>
+                                <button class="btn btn-lg btn-warning btn-block" type="submit" name="update">Update</button>
                             </form>
                             </div>
                         </div>

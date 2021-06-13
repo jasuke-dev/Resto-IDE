@@ -45,7 +45,7 @@ if(isset($_POST['tambah'])){
     <div class="dashboard-main-wrapper">        
         <div class="dashboard-header">
             <nav class="navbar navbar-expand-lg bg-white fixed-top">
-                <a class="navbar-brand" href="index.html">IDE</a>
+                <a class="navbar-brand" href="index.html">DNA</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -95,7 +95,7 @@ if(isset($_POST['tambah'])){
                                             <a class="nav-link active" href="akun.php" aria-expanded="false">Daftar Akun</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#" aria-expanded="false">Ubah Password</a>
+                                            <a class="nav-link" href="update.php" aria-expanded="false">Ubah Password</a>
                                         </li>
                                     </ul>
                                 </div>
